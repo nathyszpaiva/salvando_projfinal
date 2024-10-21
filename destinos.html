@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <title>Destinos - Agência de Viagens</title>
+</head>
+<body>
+    <header>
+        <h1>Viaje Bem</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destinos.html">Destinos</a></li>
+                <li><a href="ofertas.html">Ofertas</a></li>
+                <li><a href="depoimentos.html">Depoimentos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="carrinho.html">Carrinho (<span id="cart-count">0</span>)</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="destinos">
+        <h1>Destinos</h1>
+        <br>
+        <div class="destinos-container">
+            <div class="destino" data-id="destino-1">
+                <img src="praia_do_forte.png" alt="Praia do Forte" class="destino-image">
+                <h3><a href="detalhes_praia_do_forte.html">Praia do Forte, BA</a></h3>
+                <p>R$ 3.500,00</p>
+                <button class="add-to-cart" data-item-name="Praia do Forte" data-item-price="3500.00">Adicionar ao Carrinho</button>
+            </div>
+            <div class="destino" data-id="destino-2">
+                <img src="fernando_de_noronha.png" alt="Fernando de Noronha" class="destino-image">
+                <h3><a href="detalhes_fernando_de_noronha.html">Fernando de Noronha, PE</a></h3>
+                <p>R$ 7.200,00</p>
+                <button class="add-to-cart" data-item-name="Fernando de Noronha" data-item-price="7200.00">Adicionar ao Carrinho</button>
+            </div>
+            <div class="destino" data-id="destino-3">
+                <img src="rio_de_janeiro.png" alt="Rio de Janeiro" class="destino-image">
+                <h3><a href="detalhes_rio_de_janeiro.html">Rio de Janeiro, RJ</a></h3>
+                <p>R$ 2.800,00</p>
+                <button class="add-to-cart" data-item-name="Rio de Janeiro" data-item-price="2800.00">Adicionar ao Carrinho</button>
+            </div>
+            <div class="destino" data-id="destino-4">
+                <img src="bahia.png" alt="Bahia" class="destino-image">
+                <h3><a href="detalhes_bahia.html">Bahia, BA</a></h3>
+                <p>R$ 4.000,00</p>
+                <button class="add-to-cart" data-item-name="Bahia" data-item-price="4000.00">Adicionar ao Carrinho</button>
+            </div>
+            <div class="destino" data-id="destino-5">
+                <img src="sao_paulo.png" alt="São Paulo" class="destino-image">
+                <h3><a href="detalhes_sao_paulo.html">São Paulo, SP</a></h3>
+                <p>R$ 2.100,00</p>
+                <button class="add-to-cart" data-item-name="São Paulo" data-item-price="2100.00">Adicionar ao Carrinho</button>
+            </div>
+            <div class="destino" data-id="destino-6">
+                <img src="florianopolis.png" alt="Florianópolis" class="destino-image">
+                <h3><a href="detalhes_florianopolis.html">Florianópolis, SC</a></h3>
+                <p>R$ 3.800,00</p>
+                <button class="add-to-cart" data-item-name="Florianópolis" data-item-price="3800.00">Adicionar ao Carrinho</button>
+            </div>
+            <div class="destino" data-id="destino-7">
+                <img src="fortaleza.png" alt="Fortaleza" class="destino-image">
+                <h3><a href="detalhes_fortaleza.html">Fortaleza, CE</a></h3>
+                <p>R$ 2.500,00</p>
+                <button class="add-to-cart" data-item-name="Fortaleza" data-item-price="2500.00">Adicionar ao Carrinho</button>
+            </div>
+            <div class="destino" data-id="destino-8">
+                <img src="curitiba.png" alt="Curitiba" class="destino-image">
+                <h3><a href="detalhes_curitiba.html">Curitiba, PR</a></h3>
+                <p>R$ 1.900,00</p>
+                <button class="add-to-cart" data-item-name="Curitiba" data-item-price="1900.00">Adicionar ao Carrinho</button>
+            </div>
+            <div class="destino" data-id="destino-9">
+                <img src="salvador.png" alt="Salvador" class="destino-image">
+                <h3><a href="detalhes_salvador.html">Salvador, BA</a></h3>
+                <p>R$ 3.200,00</p>
+                <button class="add-to-cart" data-item-name="Salvador" data-item-price="3200.00">Adicionar ao Carrinho</button>
+            </div>
+            <div class="destino" data-id="destino-10">
+                <img src="maceio.png" alt="Maceió" class="destino-image">
+                <h3><a href="detalhes_maceio.html">Maceió, AL</a></h3>
+                <p>R$ 2.400,00</p>
+                <button class="add-to-cart" data-item-name="Maceió" data-item-price="2400.00">Adicionar ao Carrinho</button>
+            </div>
+            <div class="destino" data-id="destino-11">
+                <img src="gramado.png" alt="Gramado" class="destino-image">
+                <h3><a href="detalhes_gramado.html">Gramado, RS</a></h3>
+                <p>R$ 3.000,00</p>
+                <button class="add-to-cart" data-item-name="Gramado" data-item-price="3000.00">Adicionar ao Carrinho</button>
+            </div>
+            <div class="destino" data-id="destino-12">
+                <img src="porto_de_galinhas.png" alt="Porto de Galinhas" class="destino-image">
+                <h3><a href="detalhes_porto_de_galinhas.html">Porto de Galinhas, PE</a></h3>
+                <p>R$ 3.500,00</p>
+                <button class="add-to-cart" data-item-name="Porto de Galinhas" data-item-price="3500.00">Adicionar ao Carrinho</button>
+            </div>
+            <div class="destino" data-id="destino-13">
+                <img src="olinda.png" alt="Olinda" class="destino-image">
+                <h3><a href="detalhes_olinda.html">Olinda, PE</a></h3>
+                <p>R$ 2.200,00</p>
+                <button class="add-to-cart" data-item-name="Olinda" data-item-price="2200.00">Adicionar ao Carrinho</button>
+            </div>
+            <div class="destino" data-id="destino-14">
+                <img src="sao_miguel_dos_milagres.png" alt="São Miguel dos Milagres" class="destino-image">
+                <h3><a href="detalhes_sao_miguel_dos_milagres.html">São Miguel dos Milagres, AL</a></h3>
+                <p>R$ 3.600,00</p>
+                <button class="add-to-cart" data-item-name="São Miguel dos Milagres" data-item-price="3600.00">Adicionar ao Carrinho</button>
+            </div>
+            <div class="destino" data-id="destino-15">
+                <img src="pantanal.png" alt="Pantanal" class="destino-image">
+                <h3><a href="detalhes_pantanal.html">Pantanal, MT</a></h3>
+                <p>R$ 4.800,00</p>
+                <button class="add-to-cart" data-item-name="Pantanal" data-item-price="4800.00">Adicionar ao Carrinho</button>
+            </div>
+            <div class="destino" data-id="16">
+                <img src="chapada_diamantina.png" alt="Chapada Diamantina" class="destino-image">
+                <h3><a href="detalhes_chapada_diamantina.html">Chapada Diamantina, BA</a></h3>
+                <p>R$ 3.800,00</p>
+                <button class="add-to-cart" data-item-name="Chapada Diamantina" data-item-price="3800.00">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Redes Sociais</h3>
+                <div class="social-links">
+                    <a href="https://facebook.com" target="_blank">Facebook</a>
+                    <a href="https://twitter.com" target="_blank">Twitter</a>
+                    <a href="https://instagram.com" target="_blank">Instagram</a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Informações</h3>
+                <a href="sobre.html">Sobre Nós</a>
+                <a href="contato.html">Contato</a>
+                <a href="ofertas.html">Ofertas</a>
+            </div>
+            <div class="footer-column">
+                <h3>Ajuda</h3>
+                <a href="#">Termos de Serviço</a>
+                <a href="#">Política de Privacidade</a>
+            </div>
+        </div>
+        <p>&copy; 2024 Viaje Bem. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
